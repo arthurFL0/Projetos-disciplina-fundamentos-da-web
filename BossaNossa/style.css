@@ -367,9 +367,10 @@ button{
     width: 50px;
 }
 
-.mobile-h1-holder > h1 {
+.mobile-h1-holder > h2 {
     margin: 0px;
     font-size: 42px;
+    font-weight: bold;
 }
 
 .holder-1,.holder-2{
@@ -456,7 +457,7 @@ button{
 
 
 @media(max-width: 550px){
-    .mobile-h1-holder > h1 {
+    .mobile-h1-holder > h2 {
         font-size: 35px;
     }
 
