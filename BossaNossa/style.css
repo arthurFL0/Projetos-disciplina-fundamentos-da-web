@@ -135,7 +135,7 @@ a{
 
 .nome-header{
     font-size: 38px;
-    width: 35%;
+    width: 44%;
     margin: 0px;
     color: white;
     font-weight: bold;
@@ -145,6 +145,10 @@ a{
 .nomeH-holder{
     display: flex;
     flex-wrap: wrap;
+}
+
+.nome-secao-holder > img {
+    object-fit: contain;
 }
 
 .space-btw{
@@ -358,12 +362,13 @@ button{
 
 .menu{
     position: absolute;
-    right: 50px;
+    right: 30px;
+    width: 50px;
 }
 
 .mobile-h1-holder > h1 {
     margin: 0px;
-    font-size: 50px;
+    font-size: 42px;
 }
 
 .holder-1,.holder-2{
@@ -448,6 +453,20 @@ button{
     }
 }
 
+
+@media(max-width: 550px){
+    .mobile-h1-holder > h1 {
+        font-size: 35px;
+    }
+
+    .main-padrao {
+        width: 90%;
+    }
+
+    footer > img {
+        width: 30px;
+    }
+}
 
 @media(max-width: 1300px){
     .holder-1{
