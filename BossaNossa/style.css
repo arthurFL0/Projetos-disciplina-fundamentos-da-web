@@ -463,7 +463,7 @@ button{
         width: 90%;
     }
 
-    footer > img {
+    footer > a > img {
         width: 30px;
     }
 }
